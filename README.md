@@ -14,9 +14,11 @@ Topics:
 - Gradient Descent
 - Tensorflow/Keras
 - Librosa
-- Mel-Frequency Cepstrum Coefficiient (MFCC)
+- Mel-Frequency Cepstrum Coefficient (MFCC)
 - Fast Fourier Transform/Short-Time Fourier Transform
 - Multiclass Classification
 - Overfitting
+- Convolutional Neural Network
+
 
 &ndash; terry feng

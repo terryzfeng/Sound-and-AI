@@ -53,13 +53,16 @@ if __name__ == "__main__":
         keras.layers.Flatten(input_shape=(inputs.shape[1], inputs.shape[2])),
 
         # 1st hidden layer
-        keras.layers.Dense(512, activation="relu", kernel_regularizer=keras.regularizers.l2(0.001)),
-        keras.layers.Dropout(0.3), # overfitting
+        keras.layers.Dense(512, activation="relu",
+                           kernel_regularizer=keras.regularizers.l2(0.001)),
+        keras.layers.Dropout(0.3),  # overfitting
         # 2st hidden layer
-        keras.layers.Dense(256, activation="relu", kernel_regularizer=keras.regularizers.l2(0.001)),
+        keras.layers.Dense(256, activation="relu",
+                           kernel_regularizer=keras.regularizers.l2(0.001)),
         keras.layers.Dropout(0.3),
         # 3st hidden layer
-        keras.layers.Dense(64, activation="relu", kernel_regularizer=keras.regularizers.l2(0.001)),
+        keras.layers.Dense(64, activation="relu",
+                           kernel_regularizer=keras.regularizers.l2(0.001)),
         keras.layers.Dropout(0.3),
 
         # Output layer
@@ -68,14 +71,14 @@ if __name__ == "__main__":
 
     # compile network
     optimizer = keras.optimizers.Adam(
-        learning_rate=0.0001
+        learning_rate=0.0001)
     model.compile(optimizer=optimizer,
                   loss="sparse_categorical_crossentropy",
                   metrics=["accuracy"])
     model.summary()
 
     # train network
-    history = model.fit(inputs_train, targets_train, validation_data=(
+    history=model.fit(inputs_train, targets_train, validation_data=(
         inputs_test, targets_test), epochs=70, batch_size=32)
 
     # plot accuracy and error over epochs
