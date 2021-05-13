@@ -1,12 +1,10 @@
 # Sound and AI
 
-Deep Learning for audio with Python
+Deep Learning for Audio with Python
 
-Genre Training Dataset: [GTZan Dataset Music Genre Classification](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification)
+Genre Classification and Analysis of Musical Features
 
-More resources: [musikalkemist](https://github.com/musikalkemist/DeepLearningForAudioWithPython)
-
-Topics:
+## Topics
 
 - Neural Networks
 - Multilayer Perceptron (MLP)
@@ -18,7 +16,14 @@ Topics:
 - Fast Fourier Transform/Short-Time Fourier Transform
 - Multiclass Classification
 - Overfitting
-- Convolutional Neural Network
+- Convolutional Neural Networks
+- Recurrent Neural Networks
+- Long Short Term Memory
 
+# Resources
+
+*Genre Training Dataset*: [GTZan Dataset Music Genre Classification](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification)
+
+*More resources*: [musikalkemist](https://github.com/musikalkemist/DeepLearningForAudioWithPython)
 
 &ndash; terry feng
