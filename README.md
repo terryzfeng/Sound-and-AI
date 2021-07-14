@@ -6,7 +6,7 @@ Genre Classification and Analysis of Musical Features
 
 ## Topics
 
-- Neural Networks
+- Neural Networks (NN)
 - Multilayer Perceptron (MLP)
 - Forward/Back Propagation
 - Gradient Descent
@@ -16,9 +16,9 @@ Genre Classification and Analysis of Musical Features
 - Fast Fourier Transform/Short-Time Fourier Transform
 - Multiclass Classification
 - Overfitting
-- Convolutional Neural Networks
-- Recurrent Neural Networks
-- Long Short Term Memory
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN)
+- Long Short Term Memory (LSTM)
 
 # Resources
 
