@@ -1,8 +1,8 @@
 # Sound and AI
 
-Deep Learning for Audio with Python
+Applying audio Deep Learning techniques with Python.
 
-Genre Classification and Analysis of Musical Features
+Extracting Music Features for Analysis and Genre Classification
 
 ## Topics
 
