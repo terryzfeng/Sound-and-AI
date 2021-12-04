@@ -12,7 +12,7 @@ Extracting Music Features for Analysis and Genre Classification
 - Gradient Descent
 - Tensorflow/Keras
 - Librosa
-- Mel-Frequency Cepstrum Coefficient (MFCC)
+- Mel-Frequency Cepstral Coefficient (MFCC)
 - Fast Fourier Transform/Short-Time Fourier Transform
 - Multiclass Classification
 - Overfitting
